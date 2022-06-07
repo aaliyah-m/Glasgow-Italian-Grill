@@ -1,0 +1,184 @@
+body {
+	background-color: #70867f;
+}
+
+* {
+	font-family: sans-serif;
+}
+
+#navbar {  
+  font-family: Open Sans;
+  background-color: #ddebd4; 
+  width: 100%; 
+  color: #6b7050 ; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pageHeading {
+  font-family: "Dancing Script", serif;
+  font-size: 2rem;
+  padding: 10px 10px 15px 15px;
+}
+
+#mobileNavMenuButton {
+  color: #6b7050 ;
+  margin-right: 15px;
+}
+
+#mobileMenuDrawer {
+  display: none;
+  background-color: #6b7050 ; 
+  width: 95%; 
+  color: #ddebd4; 
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 10px 20px;
+}
+
+#menuItems {
+  background-color: #6b7050; 
+  width: 85%; 
+  color: #6b7050; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#content {
+	background-color: #70867f;
+	color: #dea17c;
+	padding: 10px 10px 10px 10px;
+	text-align: left-side;
+	align-items: center;
+}
+
+#contentImg {
+	align-items: center;
+	
+}
+
+#form {
+	float: left;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.gallery container {
+  position: relative;
+  width: 50%;
+}
+
+div.gallery image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+div.gallery overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+div.gallery container:hover .overlay {
+  opacity: 1;
+}
+
+div.gallery text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+#footer {
+  background-color: #ddebd4;
+  text-align: center;
+  width: 100%;
+  color: #6b7050;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 95px;
+}
+
+ .fa-brands {
+   padding: 5px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+ }
+
+ 
+ .fa-facebook {
+     background: #ddebd4;
+ }
+ 
+ 
+ @media only screen and (min-width: 768px) {
+
+}
+
+/* Rules that apply ONLY to tablets*/
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+	
+}
+
+/* Rules that apply ONLY to desktops*/
+@media only screen and (min-width : 1024px) {
+   
+   #mobileNavMenuButton {
+   display: none; 
+   }
+	
+	
+}
+
+
+
